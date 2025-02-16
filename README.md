@@ -8,7 +8,8 @@ The project focuses on Adventure Works, a global manufacturing company that spec
 # II. The Data Source
 The AdventureWorks databases are sample databases that were originally published by Microsoft to show how to design a SQL Server database using SQL Server 2008. AdventureWorksDW is the data warehouse sample.
 
-Data Source: [AdventureWorks Datasets link]([https://pages.github.com/](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms))
+Data Source: 
+[AdventureWorks Datasets link](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
 
 As the calender and database is relatively old so to update the dates of database the script Update_AdventureWorksDW_Data.sql is used. This script do not modify any other data and only shift the dates by adding the years wrt current year and also adds the dates in theDIM_Dates table which is basically an calender table.
 
